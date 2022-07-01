@@ -140,3 +140,19 @@ body {
 .adress-phone:focus {
     color: var(--accent-color);
 }
+
+/* Projects */
+.project-btn {
+    color: var(--title-color);
+    background-color: var(--background-color);
+}
+
+.project-btn:hover,
+.project-btn:focus {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
+
+.project-title {
+    color: var(--title-color);
+}
