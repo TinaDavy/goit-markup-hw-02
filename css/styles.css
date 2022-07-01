@@ -1,0 +1,142 @@
+/* цвет основного текста #757575 */
+/* цвет заготовков #212121 */
+/* акцентный цвет #2196F3 */
+/* основной цвет фона #E5E5E5 */
+/* вторичный цвет фона #F5F4FA */
+/* акцентный цвет фона */
+
+
+/* Color palette */
+:root {
+    --text-color: #757575;
+}
+
+:root {
+    --title-color: #212121;
+}
+
+:root {
+    --accent-color: #2196F3;
+}
+
+:root {
+    --background-color: #F5F4FA;
+}
+
+:root {
+    --accent-background-color: #2F303A;
+}
+
+:root {
+    --black-color: #000000;
+}
+
+:root {
+    --white-color: #FFFFFF;
+}
+
+/* Body */
+body {
+    background-color: var(--white-color);
+    color: var(--text-color);
+}
+
+/* < !-- Header section --> */
+.header {
+    background-color: var(--white-color);
+}
+
+.header-logo {
+    color: #2196F3;
+    text-decoration: none;
+}
+
+.span-header-logo{
+    color: var(--black-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.nav-link,
+.header-action {
+    color: var(--title-color);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.header-action:hover,
+.header-action:focus {
+    color: var(--accent-color);
+}
+
+/* Main */
+/* Hero section */
+.hero {
+    background-color: var(--accent-background-color);
+}
+
+.hero-title {
+    color: var(--white-color);
+}
+
+.hero-btn {
+    background-color: var(--accent-color);
+    color: var(--white-color);
+    cursor: pointer;
+}
+
+/* Features section */
+.features-title,
+.work-title,
+.team-title,
+.team-item-title {
+    color: var(--title-color);
+}
+
+/* Our team section */
+
+.team {
+    background-color: var(--background-color)
+}
+
+/* Footer */
+.footer {
+    background-color: var(--accent-background-color);
+}
+
+.footer-logo {
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+.span-footer-logo {
+    color: var(--accent-color);
+}
+
+.adress-link {
+    color: var(--white-color);
+    text-decoration: none;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.adress-mail,
+.adress-phone {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.adress-link:hover,
+.adress-mail:hover,
+.adress-phone:hover,
+.adress-link:focus,
+.adress-mail:focus,
+.adress-phone:focus {
+    color: var(--accent-color);
+}
