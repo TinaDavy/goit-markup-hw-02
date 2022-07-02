@@ -5,33 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
+    <!-- Fonts stars -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Open+Sans:wght@400;500;700&family=Raleway:wght@700&family=Tangerine:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Fonts end -->
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- Header section -->
-    <header class="header">
-      <a class="header-logo" href="./index.html">Web<span class="span-logo">Studio</span></a>
+    <header>
+      <a class="header-logo link" href="./index.html"
+        >Web<span class="span-header-logo">Studio</span></a
+      >
 
       <nav>
         <ul class="list">
           <li>
-            <a class="nav-link" href="./index.html">Студия</a>
+            <a class="nav-link link" href="./index.html">Студия</a>
           </li>
           <li>
-            <a class="nav-link" href="./portfolio.html">Портфолио</a>
+            <a class="nav-link nav-link-current link" href="./portfolio.html">Портфолио</a>
           </li>
           <li>
-            <a class="nav-link" href="#contacts">Контакты</a>
+            <a class="nav-link link" href="#contacts">Контакты</a>
           </li>
         </ul>
       </nav>
 
       <ul class="list">
         <li>
-          <a class="header-action" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a class="header-action link" href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
         <li>
-          <a class="header-action" href="tel:+380961111111">+38 096 111 11 11</a>
+          <a class="header-action link" href="tel:+380961111111">+38 096 111 11 11</a>
         </li>
       </ul>
     </header>
@@ -42,11 +52,11 @@
         <h1 hidden>Проекты</h1>
         <nav>
           <ul class="list">
-            <li><button class="project-btn" type="button">Все</button></li>
-            <li><button class="project-btn" type="button">Веб-сайты</button></li>
-            <li><button class="project-btn" type="button">Приложения</button></li>
-            <li><button class="project-btn" type="button">Дизайн</button></li>
-            <li><button class="project-btn" type="button">Маркетинг</button></li>
+            <li><button class="project-btn btn" type="button">Все</button></li>
+            <li><button class="project-btn btn" type="button">Веб-сайты</button></li>
+            <li><button class="project-btn btn" type="button">Приложения</button></li>
+            <li><button class="project-btn btn" type="button">Дизайн</button></li>
+            <li><button class="project-btn btn" type="button">Маркетинг</button></li>
           </ul>
         </nav>
       </section>
@@ -62,7 +72,7 @@
               height="294"
             />
             <h3 class="project-title">Технокряк</h3>
-            <p>Веб-сайт</p>
+            <p class="project-type">Веб-сайт</p>
           </li>
           <li>
             <img
@@ -72,7 +82,7 @@
               height="294"
             />
             <h3 class="project-title">Постер <span lang="en">New Orlean vs Golden Star</span></h3>
-            <p>Дизайн</p>
+            <p class="project-type">Дизайн</p>
           </li>
           <li>
             <img
@@ -82,7 +92,7 @@
               height="294"
             />
             <h3 class="project-title">Ресторан <span lang="en">Seafood</span></h3>
-            <p>Приложение</p>
+            <p class="project-type">Приложение</p>
           </li>
           <li>
             <img
@@ -92,7 +102,7 @@
               height="294"
             />
             <h3 class="project-title">Проект <span lang="en">Prime</span></h3>
-            <p>Маркетинг</p>
+            <p class="project-type">Маркетинг</p>
           </li>
           <li>
             <img
@@ -102,7 +112,7 @@
               height="294"
             />
             <h3 class="project-title">Проект <span lang="en">Boxes</span></h3>
-            <p>Приложение</p>
+            <p class="project-type">Приложение</p>
           </li>
           <li>
             <img
@@ -112,7 +122,7 @@
               height="294"
             />
             <h3 class="project-title" lang="en">Inspiration has no Borders</h3>
-            <p>Веб-сайт</p>
+            <p class="project-type">Веб-сайт</p>
           </li>
           <li>
             <img
@@ -122,11 +132,11 @@
               height="294"
             />
             <h3 class="project-title">Издание <span lang="en">Limited Edition</span></h3>
-            <p>Дизайн</p>
+            <p class="project-type">Дизайн</p>
           </li>
           <li>
             <img src="./images/portfolio-html/project-8.jpg" alt="Ярлык" width="370" height="294" />
-            <h3>Проект <span>LAB</span></h3>
+            <h3 class="project-title">Проект <span>LAB</span></h3>
             <p>Маркетинг</p>
           </li>
           <li>
@@ -137,20 +147,22 @@
               height="294"
             />
             <h3 class="project-title" lang="en">Growing Business</h3>
-            <p>Приложение</p>
+            <p class="project-type">Приложение</p>
           </li>
         </ul>
       </section>
     </main>
     <!-- Footer section -->
     <footer class="footer" id="contacts">
-      <a class="footer-logo" href="./index.html">Web<span class="span-footer-logo">Studio</span></a>
+      <a class="link footer-logo" href="./index.html"
+        >Web<span class="span-footer-logo">Studio</span></a
+      >
 
       <address>
         <ul class="list">
           <li>
             <a
-              class="adress-link"
+              class="adress-link link"
               href="https://goo.gl/maps/Vk6udsdynfZgzqQk8"
               target="_blank"
               rel="noopener noreferrer"
@@ -158,10 +170,10 @@
             >
           </li>
           <li>
-            <a class="adress-mail" href="mailto:info@example.com">info@example.com</a>
+            <a class="adress-mail link" href="mailto:info@example.com">info@example.com</a>
           </li>
           <li>
-            <a class="adress-phone" href="tel:+380991111111">+38 099 111 11 11</a>
+            <a class="adress-phone link" href="tel:+380991111111">+38 099 111 11 11</a>
           </li>
         </ul>
       </address>
