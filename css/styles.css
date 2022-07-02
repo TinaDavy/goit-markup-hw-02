@@ -211,6 +211,11 @@ body {
     background-color: var(--background-color);
 }
 
+.project-btn-current {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
+
 .project-btn:hover,
 .project-btn:focus {
     color: var(--white-color);
