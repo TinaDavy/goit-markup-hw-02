@@ -49,6 +49,7 @@ body {
     line-height: calc(26 / 16);
     letter-spacing: 0.03em;
     border: none;
+    cursor: pointer;
 }
 
 .title {
@@ -111,6 +112,7 @@ body {
 
 .hero-btn {
     background-color: var(--accent-color);
+    cursor: pointer;
     color: var(--white-color);
     font-family: inherit;
     font-weight: 700;
