@@ -137,7 +137,6 @@ body {
 }
 
 .features-dsc {
-    font-weight: 400;
     font-size: 14px;
     line-height: calc(24  14);
     letter-spacing: 0.03em;
@@ -157,7 +156,6 @@ body {
 }
 
 .team-item-position {
-    font-weight: 400;
     font-size: 16px;
     line-height: calc(19 / 16);
     letter-spacing: 0.03em;
@@ -199,7 +197,6 @@ body {
 .adress-link,
 .adress-mail,
 .adress-phone {
-    font-weight: 400;
     font-size: 14px;
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
@@ -226,7 +223,6 @@ body {
 }
 
 .project-type {
-    font-weight: 400;
     font-size: 16px;
     line-height: calc(30 / 16);
     letter-spacing: 0.03em;
