@@ -60,15 +60,18 @@ body {
     letter-spacing: 0.03em;
 }
 
-/* < !-- Header section --> */
-.header-logo,
-.footer-logo {
-    color: var(--accent-color);
+.logo {
     font-family: var(--secondary-font);
     font-weight: 700;
     font-size: 26px;
     line-height: calc(31 / 26);
     letter-spacing: 0.03em;
+
+}
+
+/* < !-- Header section --> */
+.header-logo {
+    color: var(--accent-color);
 }
 
 .span-header-logo{
@@ -172,11 +175,11 @@ body {
 }
 
 .footer-logo {
-    color: var(--white-color);
+    color: var(--accent-color);
 }
 
 .span-footer-logo {
-    color: var(--accent-color);
+    color: var(--white-color);
 }
 
 .adress-link {
