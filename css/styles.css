@@ -35,6 +35,7 @@ body {
 /* reset styles */
 .link {
     text-decoration: none;
+    color: inherit;
 }
 
 .list {
