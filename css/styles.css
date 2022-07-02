@@ -3,7 +3,7 @@
 /* акцентный цвет #2196F3 */
 /* основной цвет фона #E5E5E5 */
 /* вторичный цвет фона #F5F4FA */
-/* акцентный цвет фона */
+/* акцентный цвет фона #2F303A */
 
 
 /* Color palette */
@@ -29,7 +29,7 @@
 /* Body */
 body {
     color: var(--text-color);
-    font-family: "Roboto", sans-serif;
+    font-family: var(--main-font);
 }
 
 /* reset styles */
@@ -76,7 +76,6 @@ body {
 .nav-link,
 .header-action {
     color: var(--title-color);
-    cursor: pointer;
     font-weight: 500;
     font-size: 14px;
     line-height: calc(16 / 14);
@@ -118,7 +117,6 @@ body {
     font-size: 16px;
     line-height: calc(30 / 16);
     letter-spacing: 0.06em;
-    cursor: pointer;
     border: none;
 }
 
@@ -181,14 +179,12 @@ body {
 .adress-link {
     color: var(--white-color);
     font-style: normal;
-    cursor: pointer;
 }
 
 .adress-mail,
 .adress-phone {
     color: rgba(255, 255, 255, 0.6);
     font-style: normal;
-    cursor: pointer;
 }
 
 .adress-link:hover,
