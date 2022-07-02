@@ -141,8 +141,9 @@ body {
 
 .features-dsc {
     font-size: 14px;
-    line-height: calc(24  14);
+    line-height: calc(24 / 14);
     letter-spacing: 0.03em;
+    font-weight: 400;
 }
 
 /* Our team section */
@@ -162,6 +163,7 @@ body {
     font-size: 16px;
     line-height: calc(19 / 16);
     letter-spacing: 0.03em;
+    font-weight: 400;
 }
 
 /* Footer */
@@ -234,4 +236,5 @@ body {
     font-size: 16px;
     line-height: calc(30 / 16);
     letter-spacing: 0.03em;
+    font-weight: 400;
 }
