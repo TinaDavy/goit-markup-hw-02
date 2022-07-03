@@ -126,6 +126,11 @@ body {
     border: none;
 }
 
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: #188CE8;
+}
+
 /* Features section */
 .features-title,
 .work-title,
